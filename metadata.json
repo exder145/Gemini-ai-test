@@ -1,0 +1,5 @@
+{
+  "name": "Cyberpunk Keystroke Visualizer",
+  "description": "A cyberpunk-themed typing interface where physical keystrokes animate a virtual keyboard, displaying text in styled chat bubbles with procedurally generated texture tags.",
+  "requestFramePermissions": []
+}

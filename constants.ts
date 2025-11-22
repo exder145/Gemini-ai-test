@@ -1,0 +1,93 @@
+import { KeyboardRow, KeyDefinition, TagSkin } from './types';
+
+export const KEYBOARD_LAYOUT: KeyboardRow[] = [
+  [
+    { label: '`', code: 'Backquote' },
+    { label: '1', code: 'Digit1' },
+    { label: '2', code: 'Digit2' },
+    { label: '3', code: 'Digit3' },
+    { label: '4', code: 'Digit4' },
+    { label: '5', code: 'Digit5' },
+    { label: '6', code: 'Digit6' },
+    { label: '7', code: 'Digit7' },
+    { label: '8', code: 'Digit8' },
+    { label: '9', code: 'Digit9' },
+    { label: '0', code: 'Digit0' },
+    { label: '-', code: 'Minus' },
+    { label: '=', code: 'Equal' },
+    { label: 'DEL', code: 'Backspace', width: 2, type: 'special' },
+  ],
+  [
+    { label: 'TAB', code: 'Tab', width: 1.5, type: 'special' },
+    { label: 'Q', code: 'KeyQ' },
+    { label: 'W', code: 'KeyW' },
+    { label: 'E', code: 'KeyE' },
+    { label: 'R', code: 'KeyR' },
+    { label: 'T', code: 'KeyT' },
+    { label: 'Y', code: 'KeyY' },
+    { label: 'U', code: 'KeyU' },
+    { label: 'I', code: 'KeyI' },
+    { label: 'O', code: 'KeyO' },
+    { label: 'P', code: 'KeyP' },
+    { label: '[', code: 'BracketLeft' },
+    { label: ']', code: 'BracketRight' },
+    { label: '\\', code: 'Backslash', width: 1.5 },
+  ],
+  [
+    { label: 'CAPS', code: 'CapsLock', width: 1.75, type: 'special' },
+    { label: 'A', code: 'KeyA' },
+    { label: 'S', code: 'KeyS' },
+    { label: 'D', code: 'KeyD' },
+    { label: 'F', code: 'KeyF' },
+    { label: 'G', code: 'KeyG' },
+    { label: 'H', code: 'KeyH' },
+    { label: 'J', code: 'KeyJ' },
+    { label: 'K', code: 'KeyK' },
+    { label: 'L', code: 'KeyL' },
+    { label: ';', code: 'Semicolon' },
+    { label: "'", code: 'Quote' },
+    { label: 'ENTER', code: 'Enter', width: 2.25, type: 'special' },
+  ],
+  [
+    { label: 'SHIFT', code: 'ShiftLeft', width: 2.25, type: 'special' },
+    { label: 'Z', code: 'KeyZ' },
+    { label: 'X', code: 'KeyX' },
+    { label: 'C', code: 'KeyC' },
+    { label: 'V', code: 'KeyV' },
+    { label: 'B', code: 'KeyB' },
+    { label: 'N', code: 'KeyN' },
+    { label: 'M', code: 'KeyM' },
+    { label: ',', code: 'Comma' },
+    { label: '.', code: 'Period' },
+    { label: '/', code: 'Slash' },
+    { label: 'SHIFT', code: 'ShiftRight', width: 2.75, type: 'special' },
+  ],
+  [
+    { label: 'CTRL', code: 'ControlLeft', width: 1.5, type: 'special' },
+    { label: 'WIN', code: 'MetaLeft', width: 1.25, type: 'special' },
+    { label: 'ALT', code: 'AltLeft', width: 1.25, type: 'special' },
+    { label: 'SPACE', code: 'Space', width: 6.25 },
+    { label: 'ALT', code: 'AltRight', width: 1.25, type: 'special' },
+    { label: 'FN', code: 'ContextMenu', width: 1.25, type: 'special' },
+    { label: 'CTRL', code: 'ControlRight', width: 1.5, type: 'special' },
+  ],
+];
+
+export const POSSIBLE_TAGS = [
+  'NEURO', 'CYBER', 'PUNK', 'DATA', 'CORE', 'NET', 'WAVE', 'HACK', 'SOUL', 'GHOST', 'NEON', 'FLUX', 'VOID', 'SYNC'
+];
+
+export const TAG_SKINS = [
+  TagSkin.LEOPARD,
+  TagSkin.POLKA_DOT,
+  TagSkin.DIAMOND,
+  TagSkin.GLITCH,
+  TagSkin.NEON,
+  TagSkin.HOLO,
+  TagSkin.WARNING,
+  TagSkin.BLUEPRINT,
+  TagSkin.RETRO,
+  TagSkin.PAPER,
+  TagSkin.MATRIX,
+  TagSkin.CIRCUIT
+];
